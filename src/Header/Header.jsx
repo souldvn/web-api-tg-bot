@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
 
-    const {tg, user, onClose} = useTelegram()
+    const {tg, onClose} = useTelegram()
 
     return (
         <div>
