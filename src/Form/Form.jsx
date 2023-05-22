@@ -44,7 +44,7 @@ const Form = () => {
                 className={'input'}
                 type="text"
                 placeholder={'Страна'}
-                value={country}
+                value ={country}
                 onChange={onChangeCountry}
             />
             <input
