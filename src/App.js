@@ -6,9 +6,10 @@ import {Route, Routes} from 'react-router-dom'
 import ProductList from "./ProductList/ProductList";
 import Form from "./Form/Form";
 
+
 function App() {
 
-    const{onToggleButton, tg} = useTelegram()
+    const{tg} = useTelegram()
 
     React.useEffect(() => {
         tg.ready()
